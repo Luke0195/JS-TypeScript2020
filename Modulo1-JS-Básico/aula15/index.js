@@ -37,4 +37,4 @@ const resto = function(num){
   return  num % 2
 }
 
-console.log(resto(4));
+console.log(resto());
