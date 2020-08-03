@@ -1,0 +1,11 @@
+// Configurando o WebPack para que o nosso projeto consiga rodar em outras versões do navegador
+
+npm install --save-D @babel/core @babel/cli @babel/preset-env babel-loader webpack webpack-cli
+core-js@3 regenerator-runtime
+
+// Precisamos criar um arquivo de configuração para configurar o nosso webpack, ele deve se chamar
+webpack.config.js
+
+
+//"execWebPack":"webpack -w" -> Esse script nos ajuda a monitoarar os elementos do webpack
+// podemos usar o module em mode de desenvolvimento e produção
