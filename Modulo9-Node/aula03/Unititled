@@ -1,0 +1,10 @@
+
+Version: 2.       1.          0
+       major     minor       patch
+
+// patch -> é controle de versão de bugs -> 2.1.1
+// minor -> é versão de features pequenas -> 2. 2. 1
+// major -> é alteração feita na aplicação toda -> 3.0.0
+
+^ -> Significa que podemos atualizar tanto as versões minor e patch
+
