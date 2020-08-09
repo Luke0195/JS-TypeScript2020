@@ -1,6 +1,5 @@
 // Aula 05: Express - Introdução
 const express = require('express');
-const { response } = require('express');
 const app = express();
 
 
@@ -19,7 +18,7 @@ app.post('/', (request, response)=>{
   return response.json({message: 'Seus dados foram cadastrados com sucesso'})
 })
 app.get('/contato', (request, response) =>{
-  return response.send('Obrigado por entrar em contato conosco');
+  return response.json({ message: 'Obrigado por entrar em contato conosco'});
 });
 
 
